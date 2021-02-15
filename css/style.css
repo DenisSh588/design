@@ -703,3 +703,52 @@ body{
     display: block;
     background: blue url(../img/karta.jpg) no-repeat center / cover;
 }
+
+
+@media(max-width:1024px){
+    .container{
+        max-width: 900px;
+    }
+    .skills__stat {
+        width: 400px;
+    }
+    .statistic__info {
+        width: auto;
+    }
+    .statistic__img{
+        margin-right: 20px;
+    }
+    .quotes__text {
+        width: 688px;
+    }
+    .footer__feedback__block{
+        margin-left: 30px;
+    }
+    .promo__info__block{
+        margin-right: -40px;
+    }
+    .contact__info__block {
+        display: block;
+    }
+    .your__project__block{
+        margin-top: 40px;
+    }
+}
+@media(max-width:900px){
+    .container{
+        max-width: 768px;
+    }
+    .skills__stat {
+        width: 358px;
+    }
+    .quotes__text {
+        width: 434px;
+    }
+    .about__me__text {
+        width: 316px;
+    }
+    .promo__info__block{
+        margin-right: -118px;
+
+    }
+}
